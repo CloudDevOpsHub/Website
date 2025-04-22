@@ -1,0 +1,613 @@
+<div id="1713852605790d" data-cat="1" class="is-section is-shadow-1 is-bg-grey is-section-75" style="display: none;">
+	<div class="is-boxes">
+		<div class="is-box is-light-text is-box-5" style="background-color: rgb(0, 0, 0);">
+			<div class="is-overlay">
+				
+				
+				<div class="is-overlay-content"></div>
+			</div>
+			<div class="is-boxes">
+				<div class="is-box-centered is-opacity-90">
+					<div class="is-container container" style="max-width: 640px;">
+						<div class="row clearfix"><!-- PARTICLE CANVAS -->
+<canvas id="particles-canvas" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;" width="1366" height="633"></canvas>
+
+<!-- MAIN CONTENT -->
+<div class="column full" spellcheck="false">
+  <div class="display" style="text-align: left; padding: 40px; position: relative; z-index: 2;">
+    
+    <!-- Top Badge --><b class="size-24" style="color: rgb(249, 168, 37);">
+    Lakshya 40 LPA, Package with Batch-39</b><br><!-- Gradient Heading -->
+    <h1 style="font-family: &quot;Frank Ruhl Libre&quot;, serif; text-transform: capitalize; font-weight: 700; line-height: 1.2; background: linear-gradient(90deg, rgb(255, 123, 0), rgb(255, 255, 255)) text; -webkit-text-fill-color: transparent; color: transparent; margin: 20px 0px 10px; text-align: center;" class="size-60">
+      Multi Cloud + DevOps <span class="size-24">with</span> AI
+    </h1>
+
+    <!-- Subtext -->
+    <p style="
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      color: rgb(122, 122, 122);
+      margin-bottom: 20px;
+    ">
+      <b>100% Live, 100% Interactive &amp; 100% Satisfaction Guarantee</b>
+    </p>
+
+    <!-- CTA Button -->
+    <a href="https://chat.whatsapp.com/DhPIW2HsCAa7enPgHCfohp" style="display: inline-block; text-decoration: none; transition: 0.16s; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgba(249, 168, 37, 0.85); border-radius: 60px; padding: 13px 28px; line-height: 1.5; text-transform: initial; font-weight: 900; font-size: 15px; letter-spacing: 1px; background-image: linear-gradient(0deg, rgb(255, 57, 25), rgb(255, 104, 15)); border-style: solid; border-width: 3px; margin-bottom: 5px;" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" spellcheck="false" target="_blank" title="WhatsApp Group">      <b>Start High Package Journey Now</b>    </a>
+    
+  <grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+</div>
+
+<!-- PARTICLE JS -->
+<script>
+  const canvas = document.getElementById("particles-canvas");
+  const ctx = canvas.getContext("2d");
+  let particlesArray = [];
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    initParticles();
+  }
+
+  window.addEventListener("resize", resizeCanvas);
+
+  class Particle {
+    constructor() {
+      this.x = Math.random() * canvas.width;
+      this.y = canvas.height + Math.random() * 100;
+      this.size = Math.random() * 2 + 1;
+      this.speedY = -(Math.random() * 1 + 0.5);
+      this.hue = Math.random() * 360;
+    }
+
+    update() {
+      this.y += this.speedY;
+      if (this.y < -10) {
+        this.y = canvas.height + Math.random() * 20;
+        this.x = Math.random() * canvas.width;
+      }
+      this.hue += 1;
+    }
+
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = `hsl(${this.hue}, 100%, 70%)`;
+      ctx.fill();
+    }
+  }
+
+  function initParticles() {
+    particlesArray = [];
+    for (let i = 0; i < 100; i++) {
+      particlesArray.push(new Particle());
+    }
+  }
+
+  function animateParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let particle of particlesArray) {
+      particle.update();
+      particle.draw();
+    }
+    requestAnimationFrame(animateParticles);
+  }
+
+  resizeCanvas();
+  animateParticles();
+</script>
+<grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+					<grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+				</div>
+			</div>
+		</div>
+		<div class="is-box is-box-7"><div class="is-overlay"><div class="is-overlay-bg is-scale-animated" style="background-image: url(&quot;/s/pages/assets/images/SvNypaddaheading3.png&quot;);"><div class="is-overlay-color" style="opacity:0.1"></div></div></div>
+			<div class="is-boxes">
+				<div class="is-box-centered">
+					<div class="is-container container" style="max-width: 640px;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="is-arrow-down bounce"><a href="#"><i class="icon ion-ios-arrow-thin-down"></i></a></div><div class="is-arrow-down bounce"><a href="#"><i class="icon ion-ios-arrow-thin-down"></i></a></div><div class="is-arrow-down bounce"><a href="#"><i class="icon ion-ios-arrow-thin-down"></i></a></div><div class="is-arrow-down bounce"><a href="#"><i class="icon ion-ios-arrow-thin-down"></i></a></div><div class="is-arrow-down bounce"><a href="#"><i class="icon ion-ios-arrow-thin-down"></i></a></div></div>
+
+<div id="1745044101339d" data-cat="106" class="is-section is-section-100 is-shadow-1 is-bg-grey">
+	<div class="is-boxes">
+		<div class="is-box is-box-7 is-align-left is-bg-dark is-light-text">
+			<div class="is-boxes">
+				<div class="is-box-centered">
+					<div class="is-container container is-content-left edge-x-1" style="max-width: 941px;">
+						<div class="row clearfix">
+							<div class="column full" spellcheck="false">
+								<h1 style="text-align: left; letter-spacing: 4px; color: rgb(249, 168, 37);" class="size-24">How to Start Your High-Package Journey?</h1>
+							</div>
+						</div>
+						
+						<div class="row clearfix">
+							<div class="column fourth" style="text-align: center;">
+								<h4>Step <span class="size-60"><b style="color: rgb(249, 168, 37);">1</b></span></h4><h3 style="text-align: center; color: rgb(216, 67, 21);" class="size-28">Join the WhatsApp Group</h3>
+								<p>Stay updated with all batch info, reminders,&nbsp; Referral's and direct support.</p><a href="https://chat.whatsapp.com/DhPIW2HsCAa7enPgHCfohp" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgb(255, 135, 51); border-width: 1px; border-radius: 16px; padding: 13px 28px; line-height: 19px; text-transform: uppercase; font-weight: 600; letter-spacing: 1px;" target="_blank" title="Join Group" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" class="size-12">Join WhatsApp Group</a>
+							</div>
+							<div class="column fourth" style="text-align: center;">
+								<h4>Step <span class="size-60"><b style="color: rgb(249, 168, 37);">2</b></span></h4><h3 style="text-align: center; color: rgb(216, 67, 21);" class="size-28">Join 8AM IST Zoom Session</h3>
+								<p>Experience the Mentorship style live. Get a clear idea of how this program will transform your career.</p><a href="📌Zoom Link: https://us02web.zoom.us/meeting/register/tZ0uceurqzItEtJCi-qNoYKsyl_3K2gURlW4#/registration" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgb(255, 135, 51); border-width: 1px; border-radius: 16px; padding: 13px 28px; line-height: 1.5; text-transform: uppercase; font-weight: 600; letter-spacing: 2px;" target="_blank" title="Zoom link" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" class="size-14">Join Zoom session</a>
+							</div><div class="column fourth" style="text-align: center;">
+								<h4>Step <span style="font-size: 60px;"><b style="color: rgb(249, 168, 37);">3</b></span></h4><h3 class="size-28" style="text-align: center; color: rgb(216, 67, 21);">Connect 1-1 with Vikas or Ekta</h3>
+								<p>Ask your questions, clear your doubts, and get personalized guidance.</p><a href="#" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgb(255, 135, 51); border-width: 1px; border-radius: 16px; padding: 13px 28px; line-height: 17px; text-transform: uppercase; font-weight: 600; letter-spacing: 0px;" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" class="size-14">Call to Ekta<br>+91-9111698200<br></a>
+							</div>
+							<div class="column fourth" style="text-align: center;">
+								<h4>Step <span style="font-size: 60px;"><b style="color: rgb(249, 168, 37);">4</b></span></h4><h3 class="size-28" style="text-align: center; color: rgb(216, 67, 21);">Enroll in the Lakshya Batch</h3>
+								<p>Secure your seat and start learning with real-time mentorship and hands-on training.</p><a href="https://www.clouddevopshub.com/courses/Lakshya-40LPA----Multi-Cloud--DevOps-With-AI---Batch-39-67f63c19e1ee6130c4eb88ab" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgb(255, 135, 51); border-width: 1px; border-radius: 16px; padding: 13px 28px; line-height: 1.5; text-transform: uppercase; font-weight: 600; letter-spacing: 2px;" target="_blank" title="Enroll now" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" class="size-14">Enroll now</a>
+							</div>
+						</div>
+					<grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+				</div>
+			</div>
+		</div>
+		<div class="is-box is-box-5 is-light-text is-bg-dark">
+			<div class="is-overlay">
+				<div class="is-overlay-content"></div>
+			</div>
+			<div class="is-boxes" style="min-height:auto">
+				<div class="is-box-centered">
+					<div class="is-container container" nogrid="" style="margin-top: 0px; max-width: 502px;"><div class="row clearfix"><div class="column full"><img src="/s/pages/assets/images/0Oreiblueandblackfivestepmodernillustrative2dstylebusinessplanroadmapgraph1.png" alt="" data-filename="Blue and Black Five Step Modern Illustrative 2D Style Business Plan Roadmap Graph (1).png"></div></div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1713853583032d" data-cat="1" class="is-section is-box is-section-20" style="background-color: rgb(2, 127, 201); overflow: auto;">
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 1200px; margin:0px auto;">
+				<div class="row clearfix" style="display: flex; flex-flow: wrap; align-items: center;"><div class="column third c-box-container" data-lt-tmp-id="lt-56421" spellcheck="false" data-gramm="false"><div class="c-box-block" style="background: url(&quot;https://bakinghub.graphy.com/s/pages/assets/images/hdfhxbakersprinklesicingsugarfromasieveonchristmasgingerbreade1648698120518.jpg&quot;) 0% 0% / cover no-repeat rgb(196, 196, 196); min-height: 308px; border-radius: 5px; position: relative; z-index: 3; overflow: hidden; margin-top: -50px;">
+  <div style="position: absolute; width: 100%; height: 100%; z-index: 2; top: 0px; left: 0px; padding: 40px; background-color: rgba(216, 67, 21, 0.91);"><h2 style="font-family: &quot;Frank Ruhl Libre&quot;; line-height: 1.2; font-weight: 600; text-align: center;"><span style="color: rgb(255, 255, 255); font-size: 28px;">Welcome to Your High-Package Journey..!</span></h2><p style="font-family: Poppins, sans-serif; line-height: 1.5; color: rgb(5, 27, 52);" class="size-18">Unlock 40+ LPA Opportunities by Upskilling yourself.</p>
+  </div>
+</div>
+
+<style>
+  @media (max-width: 760px){
+  .c-box-container{
+  width:100%;
+  }
+  .c-box-block{
+  min-height: 250px!important;
+    margin-bottom: 50px;
+  }
+  }
+</style></div><div class="column third" data-lt-tmp-id="lt-207934" spellcheck="false" data-gramm="false"><div style="display: flex; flex-direction: row; align-items: flex-start;">
+  <div style="margin-right: 16px;"><i class="fa-solid fa-user-group" style="font-size: 32px; color: rgb(255, 255, 255);"></i></div>
+<div>
+  <h2 style="font-family: &quot;Frank Ruhl Libre&quot;; line-height: 1.2; font-size: 24px; color: rgb(0, 0, 0); font-weight: 600; margin-bottom: 0px; margin-top: 0px; text-align: center;">For Every IT Professional: Your High-Package Profile Starts Here</h2><p style="font-size: 16px; font-family: Poppins, sans-serif; line-height: 1.5; color: rgb(255, 255, 255); margin-top: 10px;">Master In-Demand Skills, Build Real Projects &amp; Get Interview-Ready for 25+ LPA Role easily...!!</p>
+</div>
+</div></div><div class="column third" data-lt-tmp-id="lt-76680" spellcheck="false" data-gramm="false"><div style="display: flex; flex-direction: row; align-items: flex-start;">
+  <div style="margin-right: 16px;"><i class="fa-solid fa-user-group" style="font-size: 32px; color: rgb(255, 255, 255);"></i></div>
+<div>
+  <h2 style="font-family: &quot;Frank Ruhl Libre&quot;; line-height: 1.2; font-size: 24px; color: rgb(0, 0, 0); font-weight: 600; margin-bottom: 0px; margin-top: 0px; text-align: center;">From IT Job to Dream Package: This Is Your Turning Point</h2><p style="font-size: 16px; font-family: Poppins, sans-serif; line-height: 1.5; color: rgb(255, 255, 255); margin-top: 10px;">Strategic Upskilling, Real-Time Mentorship &amp; a Proven Path to Career Growth</p>
+</div>
+</div></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1744961010988d" data-cat="102" class="is-section is-box is-align-center is-section-20 is-bg-dark is-light-text">
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 1400px;">
+				
+				<div class="row clearfix">
+					<div class="column full">
+						<div class="spacer height-40"></div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="column half">
+						<img alt="" src="/s/pages/assets/images/4yzYsrectanglebatch396.png" data-filename="rectangle batch 39 (6).png">
+					</div>
+					<div class="column half">
+						<img alt="" src="/s/pages/assets/images/i4SNcrectanglebatch395.png" data-filename="rectangle batch 39 (5).png">
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1713856578417d" data-cat="1" class="is-section is-box is-section-60 is-light-text" style="background-color: rgb(0, 0, 0);"><div class="is-overlay"></div>
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 1200px;">
+				<div class="row clearfix"><div class="column half" data-qb-tmp-id="lt-709745" spellcheck="false" data-gramm="false"><p style="font-size: 14px; font-family: Poppins, sans-serif; color: rgb(240, 153, 12); line-height: 1.5; font-weight: 500;">ABOUT&nbsp;</p>
+<h2 style="font-family: &quot;Frank Ruhl Libre&quot;; font-weight: 600; line-height: 1.1; font-size: 40px;">Upscalling for High Package</h2><p style="font-size: 16px; line-height: 1.5; font-family: Poppins, sans-serif; font-style: normal; color: rgb(122, 122, 122);  letter-spacing: 0px;">Become Job Ready from <b style="color: rgb(241, 247, 253);">Day-1</b> to work in any MNC</p><div style="width: 100%;">
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="font-size: 20px;"></i></div><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);">Learn with Fun &amp; Projects&nbsp;&nbsp;😄&nbsp;Step-by-Step Practical Learning</span></p></div>
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="font-size: 20px;"></i></div><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);">Beginner to Advanced Levels&nbsp;&nbsp;🎯&nbsp;Easy to Follow, Hard to Forget</span></p></div>
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="font-size: 20px;"></i></div><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);">Job-Ready from Day 1&nbsp;&nbsp;🚀 Become an IT Pro with Real Skills</span></p></div>
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="font-size: 20px;"></i></div><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);">40 LPA Target in next 3 Month's&nbsp;</span></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);"><br></span></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);"><br></span></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);"><br></span></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);"><br></span></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);"><br></span></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5;"><span style="color: rgb(247, 247, 247);"><br></span></p></div>
+  </div><div style="display: flex; flex-direction: row; align-items: center;">
+  <h2 style="font-family: &quot;Frank Ruhl Libre&quot;; font-weight: 600; line-height: 1.1; font-size: 24px; text-align: center;">Learn &amp; Implement Like an IT Pro – Join the Professional Batch!</h2><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>
+</div><br><a href="#https://www.clouddevopshub.com/courses/Lakshya-40LPA----Multi-Cloud--DevOps-With-AI---Batch-39-67f63c19e1ee6130c4eb88ab" style="display: inline-block; text-decoration: none; transition: 0.16s; cursor: pointer; background-color: rgb(0, 0, 0); color: rgb(248, 248, 248); border-color: rgb(0, 0, 0); border-radius: 60px; padding: 13px 28px; line-height: 1.5; text-transform: initial; font-weight: 900; font-size: 15px; letter-spacing: 1px; background-image: linear-gradient(0deg, rgb(255, 57, 25), rgb(255, 104, 15)); border-style: solid; border-width: 3px; margin-bottom: 5px;" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" spellcheck="false" target="_blank" title="Batch-39">Start with High Package Journey</a>
+</div><div class="column half"><img src="/s/pages/assets/images/695HNsquaresizebatch394.png" alt="" data-filename="square size batch 39 (4).png"></div><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1699267828354d" data-cat="1" class="is-section is-box is-section-20 is-bg-dark is-light-text" style="margin-top: -50px;">
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 1200px; margin-top:0px;">
+				<div class="row clearfix" style="background-color: rgb(60, 77, 201); border-radius: 20px; overflow: hidden;">
+					<div style="padding-left: 0px; padding-right: 0px; line-height: 0; text-align: center;" class="column half" spellcheck="true">
+						<img src="/s/pages/assets/images/hNpwByellowandpurpleillustratedroadmapyourstory.png" alt="Vikas Host Image" data-filename="Yellow And Purple Illustrated Roadmap Your Story.png" style="margin-top: 0px; margin-bottom: 0px; width: 100%; height: auto;"><pre style="text-align: center;">"Discipline + Daily Progress = 55 Days to Become the Next Cloud &amp; DevOps Hero!"</pre><a href="https://docs.google.com/spreadsheets/d/1-nr0rS89RTc_Ma7eARsqsEiCsqKVVNkU/edit?gid=1006934673#gid=1006934673" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgb(255, 135, 51); border-width: 1px; border-radius: 16px; padding: 13px 28px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px;" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="Syllabus">55 Day's Syllabus</a><pre>"Just 55 Days. 10 Power-Packed Modules. 30 Practical Projects. One Life-Changing Transformation!"</pre>
+					</div>
+					<div class="column half" data-lt-tmp-id="lt-82876" spellcheck="false" data-gramm="false" style="padding: 30px; letter-spacing: 1px; background-color: rgb(0, 71, 171);">
+						<p style="color: rgb(94, 97, 252); font-size: 16px; font-family: Montserrat, sans-serif; margin-bottom: 0px; margin-top: 0px;">
+							<span style="color: rgb(40, 53, 147); font-family: Chewy, cursive;">
+								<b class="size-18" style="letter-spacing: 1px;"></b></span></p><ul><h2 class="size-32"><b style="color: rgb(249, 168, 37);">55 Day's Syllabus / Roadmap</b></h2><p style="text-align: center;"><span style="background-color: rgba(200, 200, 201, 0.11); letter-spacing: 1px;" class="size-21"><b>10 Power-Packed Modules + 30 Practical's&nbsp;</b> – From Basics to Advanced (Job Ready in 55 Days)</span></p><li><font style="color: rgb(249, 168, 37);"><font><b style="color: rgb(255, 73, 21);">Module 1: Multi-Cloud + DevOps Basics</b>&nbsp;</font> &nbsp; </font>&nbsp; &nbsp; <span style="color: rgb(225, 225, 225);">–</span> <span style="color: rgb(247, 247, 247);">Understand DevOps principles, culture, and lifecycle with real-time industry use cases.</span></li><li><font style="color: rgb(255, 143, 0);"><b style="color: rgb(255, 73, 21);">Module 2: Linux Administration for DevOps</b> </font><span style="color: rgb(225, 225, 225);">– Master essential Linux skills, file systems, permissions, and shell scripting.</span></li><li><font style="color: rgb(255, 143, 0);"><font><b style="color: rgb(255, 73, 21);">Module 3: AWS Top 10 Services</b>&nbsp; &nbsp;</font> </font>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: rgb(225, 225, 225);">– IAM, EC2, ELB, S3, RDS, VPC, CloudWatch, SNS, SQS, Alert's , Dashbaord</span></li><li><font style="color: rgb(255, 73, 21);"><font><b style="color: rgb(255, 73, 21);">Module 4: Git &amp; Jenkins</b>&nbsp; </font><font>&nbsp;</font><font> </font>&nbsp; </font>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font style="color: rgb(225, 225, 225);">&nbsp;– Build CI/CD pipelines using Git and Jenkins.</font></li><li><b style="color: rgb(255, 73, 21);">Module 5: Docker &amp; Kubernetes&nbsp;&nbsp;+ GCP&nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: rgb(225, 225, 225);">– Containers &amp; orchestration (for 3+ yrs exp.)</span></li><li><b style="color: rgb(255, 73, 21);">Module 6: Ansible &amp; Terraform&nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font style="color: rgb(225, 225, 225);">&nbsp;– Infra automation &amp; config mgmt tools.</font></li><li><b style="color: rgb(255, 73, 21);">Module 7: Monitoring Tools&nbsp; &nbsp;</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: rgb(225, 225, 225);">– Prometheus &amp; Grafana dashboards + Helm.</span></li><li><b style="color: rgb(255, 73, 21);">Module 8: Bash &amp; Python&nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: rgb(225, 225, 225);">– Scripting for DevOps Automation's.</span></li><li><b style="color: rgb(255, 73, 21);">Module 9: Live Realtime MNC's Projects&nbsp; &nbsp; &nbsp;</b> &nbsp; &nbsp; <font style="color: rgb(225, 225, 225);">&nbsp;– 3 AWS + GCP + 3 DevOps PROJECTS.</font></li><li><b style="color: rgb(255, 73, 21);">Module 10: Job-Ready Hacks&nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: rgb(225, 225, 225);">– Mock interviews, productivity plans.</span></li></ul><div style="display: flex; flex-direction: row; align-items: baseline; margin-bottom: 15px;"><p style="font-size: 16px; margin-top: 0px; margin-bottom: 0px; font-family: Montserrat, sans-serif; line-height: 1.5; color: rgb(0, 0, 0);"><b></b>
+							</p>
+						</div>
+
+						<a href="#" style="margin-top: 15px; display: inline-block; text-decoration: none; transition: 0.16s; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgba(249, 168, 37, 0.85); border-radius: 60px; padding: 13px 28px; line-height: 1.5; text-transform: initial; font-weight: 900; font-size: 15px; letter-spacing: 1px; background-image: linear-gradient(0deg, rgb(255, 57, 25), rgb(255, 104, 15)); border-style: solid; border-width: 3px; margin-bottom: 5px;" data-lt-tmp-id="lt-630396" spellcheck="false" data-gramm="false" title="" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')">
+							2X your Package now....!
+						</a>
+					</div>
+				</div>
+			<grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+		</div>
+	</div>
+</div>
+
+<div id="1713865495866d" data-cat="1" class="is-section is-box is-bg-dark is-light-text is-section-30"><div class="is-overlay"></div>
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 1200px;">
+				<div class="row clearfix"><div class="column two-third" data-qb-tmp-id="lt-594888" spellcheck="false" data-gramm="false"><p style="font-size: 14px; font-family: Poppins, sans-serif; color: rgb(240, 153, 12); line-height: 1.5; font-weight: 500;">About Batch-39</p>
+<h2 style="font-family: &quot;Frank Ruhl Libre&quot;; font-weight: 600; line-height: 1.1; font-size: 40px; color: rgb(255, 255, 255);">All in One Master's Regular Batch</h2><p style="font-size: 16px; line-height: 1.5; font-family: Poppins, sans-serif; font-style: normal; color: rgb(247, 247, 247); letter-spacing: 0px;"></p><div></div><div style="width: 100%;">
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="font-size: 20px; color: rgb(255, 199, 0);"></i></div><p style="font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><span><span class="size-21">📅 Start Date: 30th April 2025</span><br></span></p><p style="font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><span style="font-size: 16px;"><br></span></p></div>
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="color: rgb(255, 199, 0);"></i></div><p style="font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><span class="size-21">Duration: 2.5 Months i.e 55 Session's (Weekdays Regular Batches)</span></p></div>
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="color: rgb(255, 199, 0);"></i></div><p style="font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><span class="size-21">Life time WhatsApp Group Community Discussion's.&nbsp;</span></p></div>
+    <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 15px; margin-right: 16px; margin-left: 0px;"><div style="display: flex; margin-right: 10px; align-items: center; justify-content: center;"><i aria-hidden="true" class="fa-solid fa-check" style="color: rgb(255, 199, 0);"></i></div><p style="font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);">1000 Day's AI Based LMS system for (PPT + Recording's)</p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><br></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><br></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><br></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><br></p><p style="font-size: 16px; font-weight: 500; margin-top: 0px; margin-bottom: 0px; font-family: &quot;Open Sans&quot;, sans-serif; line-height: 1.5; color: rgb(247, 247, 247);"><br></p></div>
+  </div><ul><li>🚀 100% LIVE &amp; Interactive – Zoom Sessions with Hands-on Mentorship</li><li>💻 Mode: Online via Zoom</li><li>🎥 Recordings: Available within 20 mins, Access for 1000 Days</li><li>📚 Included Courses:</li><ul><li>✅ Python for DevOps</li><li>✅ Linux Admin for DevOps</li><li>✅ Interview Preparation + Referral Game</li><li>✅ Handwritten Notes (DevOps, Cloud, SQL)</li><li>✅ Advanced Interview Q&amp;A</li></ul><li>🎁 Bonus: Resume Building &amp; LinkedIn Profile and Many More</li></ul><div></div><p></p>
+
+
+<a href="https://www.clouddevopshub.com/courses/Lakshya-40LPA----Multi-Cloud--DevOps-With-AI---Batch-39-67f63c19e1ee6130c4eb88ab" style="display: inline-block; text-decoration: none; transition: 0.16s; cursor: pointer; background-color: rgb(255, 135, 51); color: rgb(23, 23, 23); border-color: rgba(249, 168, 37, 0.85); border-radius: 60px; padding: 13px 28px; line-height: 1.5; text-transform: initial; font-weight: 900; font-size: 15px; letter-spacing: 1px; background-image: linear-gradient(0deg, rgb(255, 57, 25), rgb(255, 104, 15)); border-style: solid; border-width: 3px; margin-bottom: 5px;" title="BAtch-39" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')">Enroll Now</a></div><div class="column third" spellcheck="true"><img src="/s/pages/assets/images/aPupnuntitleddesign1.jpg" alt="" data-filename="Untitled design (1).jpg" style="width: 100%; height: auto;"><div class="display">
+                <pre><b style="color: rgb(83, 98, 208);">Your Host &amp; Dost...!!!</b></pre><h2>&nbsp;<b>Vikas Ratnawat</b></h2>
+                <p></p><pre><b>Ex :- PWC, Microsoft , GE<br>Entrepreneur, IT Professional , Mentor, Corporate Trainer ..!!!</b></pre><p></p>
+            </div></div><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div><div class="row clearfix"><div class="column full" data-noedit=""><div class="spacer height-40"></div></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1713874391891d" data-cat="1" class="is-section is-box is-section-20" style="background-color: rgb(0, 0, 0);"><div class="is-overlay"></div>
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 1100px;">
+				<div class="row clearfix">
+					<div class="column full" data-lt-tmp-id="lt-25008" spellcheck="false" data-gramm="false" style="text-align: center;">
+						<h1 style="font-size: 40px; text-align: center; font-family: &quot;Frank Ruhl Libre&quot;; color: rgb(255, 255, 255); line-height: 1.2;">We Helping You to Hack High Package job with 2.5 Months Journey..!!</h1><span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1714453168647d" data-cat="1" class="is-section is-box is-dark-text is-section-20" style="background-color: rgb(25, 33, 91);">
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container" style="max-width: 3000px; margin:0px auto; padding:0px;">
+				<div class="row clearfix"><div class="column fourth center" style="padding: 0px;"><div style="line-height: 0; overflow: hidden; max-height: 300px;">
+  <img src="/s/pages/assets/images/xzUH6xrzlnscreenshot20250414152013.png" alt="" data-filename="Xrzlnscreenshot20250414152013.png" style="margin: 0px;">
+  </div></div><div class="column fourth center" style="padding: 0px;" spellcheck="false" data-gramm="false"><div style="background-color: rgb(2, 127, 201); padding-left: 40px; padding-right: 40px; display: flex; flex-direction: column; justify-content: center; min-height: 300px; background-image: linear-gradient(0deg, rgb(97, 60, 162), rgb(110, 123, 217));">
+  <p style="font-size: 16px; line-height: 1.5; text-align: left; font-family: Poppins, sans-serif; margin-top: 0px; color: rgb(255, 255, 255);"><b class="size-18">I am Aman GOT multiple offers with 95 % hike in TCS And ACCENTURE<br>I have joined the course with Vikas Sir in batch 27. Live sessions are always conducted on time, and the knowledge&nbsp;<br></b></p><p style="font-size: 16px; line-height: 1.5; text-align: center; margin-top: 0px;"><b style="background-color: rgb(255, 248, 240); color: rgb(0, 0, 0);" class="size-21">-Aman Makrani</b></p>
+</div></div><div class="column fourth center" style="padding: 0px;"><div style="line-height: 0; overflow: hidden; max-height: 300px;">
+  <img src="/s/pages/assets/images/UduyIjanhavi.jpg" alt="" data-filename="Janhavi.jpg" style="margin: 0px;">
+  </div></div><div class="column fourth center" style="padding: 0px;" spellcheck="false" data-gramm="false"><div style="background-color: rgb(2, 127, 201); padding-left: 40px; padding-right: 40px; display: flex; flex-direction: column; justify-content: center; min-height: 300px; background-image: linear-gradient(0deg, rgb(97, 60, 162), rgb(110, 123, 217));">
+  <p style="line-height: 1.5; text-align: left; font-family: Poppins, sans-serif; margin-top: 0px; color: rgb(255, 255, 255);"><b><span class="size-18">Well structured curriculum<br>Easy explanation of complicated concepts<br>Proper PDF and Video recording for every topic<br>Every week mock interviews</span><br></b></p><h3 style="font-family: &quot;Frank Ruhl Libre&quot;; line-height: 1.2; font-weight: 600; color: rgb(0, 0, 0); text-align: left; background-color: rgb(255, 248, 240);" class="size-21">- Janhavi Lashkari</h3>
+</div></div></div><div class="row clearfix"><div class="column fourth center" style="padding: 0px;" spellcheck="false" data-gramm="false"><div style="background-color: rgb(2, 127, 201); padding-left: 40px; padding-right: 40px; display: flex; flex-direction: column; justify-content: center; min-height: 300px; background-image: linear-gradient(0deg, rgb(97, 60, 162), rgb(110, 123, 217));">
+  <p style="line-height: 1.5; text-align: left; font-family: Poppins, sans-serif; margin-top: 0px;" class="size-18"><b>CloudDevOpsHub is Using AI Assistant for Notes Preparation for Classes<br>It will definitely save More time and easily we can revise the Topics.&nbsp;</b></p><p style="line-height: 1.5; text-align: left; font-family: Poppins, sans-serif; margin-top: 0px;" class="size-18"><b>Thankyou,</b><span style="color: rgb(255, 255, 255);"> <b>CloudDevOpsHub</b></span></p><h3 style="font-family: &quot;Frank Ruhl Libre&quot;; line-height: 1.2; font-weight: 600; font-size: 24px; text-align: left;"><span style="color: rgb(0, 0, 0); background-color: rgb(255, 248, 240);" class="size-21">-Neha Choudhaary</span><span style="background-color: rgb(255, 248, 240); font-size: 21px;"><br></span></h3>
+</div></div><div class="column fourth center" style="padding: 0px;"><div style="line-height: 0; overflow: hidden; max-height: 300px;">
+  <img src="/s/pages/assets/images/Srywjnehachoudhary.jpg" alt="" data-filename="Neha choudhary.jpg" style="margin: 0px; width: 72.4832%; height: auto;">
+  </div></div><div class="column fourth center" style="padding: 0px;"><div style="background-color: rgb(2, 127, 201); padding-left: 40px; padding-right: 40px; display: flex; flex-direction: column; justify-content: center; min-height: 300px; background-image: linear-gradient(0deg, rgb(97, 60, 162), rgb(110, 123, 217));">
+  <p style="line-height: 1.5; text-align: left; font-family: Poppins, sans-serif; margin-top: 0px; color: rgb(255, 255, 255);" class="size-18"><b class="size-18">One of the best coaching classes for DevOps.<br>If you want to become a DevOps engineer, then it's time to join this course without any second thought.</b></p><h3 style="font-family: &quot;Frank Ruhl Libre&quot;; line-height: 1.2; font-weight: 600; font-size: 24px; color: rgb(0, 0, 0); text-align: left; background-color: rgb(255, 248, 240);">- Prasad&nbsp;Amaravathi </h3>
+</div></div><div class="column fourth center" style="padding: 0px;"><div style="line-height: 0; overflow: hidden; max-height: 300px;">
+  <img src="/s/pages/assets/images/wZTwrprasad.png" alt="" data-filename="prasad.png" style="margin: 0px; width: 67.0534%; height: auto;">
+  </div></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1702620624225d" data-cat="1" class="is-section is-box is-dark-text is-section-auto" style="background-color: rgb(0, 0, 0);">
+	<div class="is-boxes">
+		<div class="is-box-centered">
+			<div class="is-container container is-content-right" style="max-width: 1400px;">
+				<div class="row clearfix" draggable="false" style="transform: translateZ(0px);"><div class="column full size-48" spellcheck="false"><div class="column full" data-qb-tmp-id="lt-161589" spellcheck="false" data-gramm="false"><p style="font-size: 16px; text-align: center; color: rgb(240, 153, 12); line-height: 1.5;"></p><h1 class="is-title1-48 is-title-lite">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><span style="color: rgb(247, 247, 247);">&nbsp;<b style="color: rgb(247, 247, 247);">S</b></span><span><b><span style="color: rgb(247, 247, 247);">uccess story</span></b></span></span></h1><h2 style="text-align: center; line-height: 1.2; font-family: &quot;Frank Ruhl Libre&quot;; font-weight: 600; color: rgb(247, 247, 247);">Hack Your High Package Journey.</h2></div></div><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div><div class="row clearfix"><div class="column third" style="padding-left: 8px; padding-right: 8px;" spellcheck="false"><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 8px; margin-bottom: 8px;">
+  <h2 style="width: 164px; height: 164px; font-size: 1.3em; color: rgb(140, 128, 253); font-weight: 600; text-align: center; display: flex; justify-content: center; align-items: center; border-radius: 500px; border-style: solid; border-width: 8px; border-color: rgb(140, 128, 253);">97%</h2>
+  <p style="font-size: 17px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 400; text-align: center;">of Students Achieved 3X Package*</p>
+</div>
+
+<div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">Excellent teaching<br>I'm a Tester and want to switch on DevOps.I got to know about Vikas Sir's class from one of my friend at the same time.I learnt a lot of things from basics.Regular mock interviews will help a lot.Totally it was an amazing experience.<br></p><a href="https://maps.app.goo.gl/r3rBU1MhWksLeY8bA" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="thanusha review">review</a><a href="https://www.linkedin.com/in/thanusha-k-v-07785b220/" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 18px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="thanusha linkedin">linkedin</a><div><br></div><div></div><div style="display: flex; flex-direction: row; align-items: center;"><img src="/s/pages/assets/images/wI1MCthanusha.png" alt="" data-filename="thanusha.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">Thanusha</h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">Greart learnings here. I am a developer and wanted to switch my career to devops. I was searching a many courses and the classes to join and I heared about this online class.<br>I joined CloudDevopsHub and here the learning experience is so good and the classes will start at the same time.<br>One of the best coaching classes for Devops.<br>If you want to become an devops engineer then it's time to join this course without any second thought.<br>Thank you CloudDevopsHub for making the comfortable learning atmosphere for both experienced and also for freshers.<br></p><a href="https://maps.app.goo.gl/1aGpgH59GjL2ULaB6" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="harshita review">review</a><a href="https://www.linkedin.com/in/harshita-sharma-1a9b79192/" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 18px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="harshita linkedin">linkedin</a><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/JBcIu64f732cbd5a56b6a9b9377b0hima.png" alt="" data-filename="64f732cbd5a56b6a9b9377b0_Hima.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;"><div>Harshita S P</div></h3><img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div></div><div class="column third" style="padding-left: 8px; padding-right: 8px;">
+
+<div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121); text-align: left;">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">5 interview and 3 offers got from KPMG &amp; TCS AND ATLASIAN in training period.<br>I was already a devops engineer but joined this course to get project i joined the TCS with 90% hike and within 3 days i got offer from&nbsp;Atlassian with again 90 % hike over TCS. best thing which i like is the hand of practice of vikas sir it is like even if you are fresher or experienced irrespective of you have tech knowledge or not you can get good package. it really make me really emotional all thanks to vikas sir.</p><a href="https://maps.app.goo.gl/1bgpqWhpokNmFiVD6" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" title="utkarsh review" target="_blank">review</a><a href="https://www.linkedin.com/in/kumar-utkarsh-786a89148/" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 18px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="utkarsh linkedin">linkedin</a><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p><span></span><span></span><div style="display: flex; flex-direction: row; align-items: center;"><img src="/s/pages/assets/images/hqfwJutkarsh.png" alt="" data-filename="utkarsh.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">Kumar Utkarsh</h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div><p style="margin-left: 16px;"><br></p><p style="margin-left: 16px;"><br></p>
+  </div>
+</div><span></span><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">Great learning, I am a developer and wanted to switch my career into Cloud. I joined CloudDevOpsHub and it was really nice learning experience. I learnt a lot and found it great place to learn. Also got job se support and got the offer in very short duration of 20 days after completing the course. It helps me a lot to learn and grow my lifetime career in Cloud &amp; DevOps profile. Thanks you CloudDevOpsHub team.<br></p><a href="https://maps.app.goo.gl/mR99S2CVifYyoG1V6" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" title="shubham review" target="_blank">review</a><a href="https://www.linkedin.com/in/shubham-shriwas-888b40a9/" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 18px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="shubham linkedin">linkedin</a><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p><span></span><span></span>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/XnGsX64f732cbd5a56b6a9b9377d9shamanth.png" alt="" data-filename="64f732cbd5a56b6a9b9377d9_Shamanth.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">Shubham Shrivas</h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px; color: rgb(247, 247, 247);" class="size-16"><span style="color: rgb(240, 240, 240);">Dear Vikas,</span><span><span style="color: rgb(240, 240, 240);">&nbsp;</span><span><span style="color: rgb(240, 240, 240);">&nbsp;I wanted to express my sincere appreciation for the AWS Devops  training conducted by Vikas. His deep knowledge, engaging teaching style, and ability to simplify complex concepts made the training experience exceptional. I highly recommend your institute's AWS devops training program. Thank you for the valuable learning opportunity</span><span style="color: rgb(240, 240, 240);">.&nbsp;</span></span></span></p><a href="https://maps.app.goo.gl/3MoYkH8JAgHRJJD86" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="suchadra review">review</a><a href="https://www.linkedin.com/in/suchandra-reddy-098b10197/?originalSubdomain=in" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 18px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="suchandra linkedin">linkedin</a><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p><span></span>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/OH9hP64f732cbd5a56b6a9b9377bfshivam.png" alt="" data-filename="64f732cbd5a56b6a9b9377bf_shivam.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">SUCHANDRA REDDY<br></h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div></div><div class="column third" spellcheck="false"><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">I am Aman GOT multiple offers with 95 % hike in TCS AND ACCENTURE .&nbsp;</p><p style="font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;" class="size-16"><span style="font-family: Montserrat, sans-serif;"><span style="color: rgb(240, 240, 240);">I have joined the course with vikas sir in batch 27 live sessions conducted always on time and the knowledge here provided is multicloud and devops knowledge.&nbsp;</span></span><span style="font-family: Montserrat, sans-serif;"><span style="color: rgb(240, 240, 240);" class="size-16">i am from a non it background it was my great concern that how i will start my career in this field but after completing the course and giving interview i am too happy with my decision&nbsp; and have got multiple offer with good package</span><span style="color: rgb(240, 240, 240);">.</span></span></p><a href="https://maps.app.goo.gl/8qe75e8T2e9A6GAB9" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 16px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="aman review">Review</a><a href="https://www.linkedin.com/in/aman-makrani-2b6667150/" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(255, 255, 255); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 16px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#7a8deb" data-hover-color="#ffffff" data-hover-bordercolor="#7a8deb" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="aman linkedin">Linkedin</a><span></span><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="/s/pages/assets/images/L55QSaman.png" alt="" data-filename="aman.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">aman makrani</h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">Vikas sir very cool person, every doubt he will take make it clear. On more thing every class is on time without no dealy. 1st of all i dont know aws and devops after I joined this hub , now I am able to do practical as well as understand concept Clearlly. Thanks you sir your motivation to the students.<br></p><a href="https://maps.app.goo.gl/RcJ8v3GiUL23jTBk7" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="rishwanth review">review</a><a href="https://www.linkedin.com/in/rishwanthperumandla/" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 20px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="rishwanth linkedin">linkedin</a><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p><span></span><span></span>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="/s/pages/assets/images/jk70ejayant.png" alt="" data-filename="jayant.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">Rishwanth</h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div><div style="border-width: 2px; border-style: solid; border-color: rgb(40, 41, 121); border-radius: 16px; padding: 1.56em; margin-bottom: 8px; margin-top: 8px; display: inline-block; width: 100%; background-color: rgb(40, 41, 121);">
+  
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/Rnocu64f732cbd5a56b6a9b9377d1quote.png" alt="" data-filename="64f732cbd5a56b6a9b9377d1_Quote.svg" style="margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;">Clouddevopshub is a good place to start learning DevOps. Vikas teaches in a very interactive mode and covers the topics from basics. Provides assignments and doubt clearing sessions. Learned most of the DevOps tools within a span of 2.5 months.<br></p><a href="https://maps.app.goo.gl/dweZS6QecghFKoHY6" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(23, 23, 23); color: rgb(7, 210, 192); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 14px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 600; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#07d2c0" data-hover-color="#ffffff" data-hover-bordercolor="#07d2c0" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="debayan dhar">review</a><a href="https://www.linkedin.com/in/debayan-dhar-18051994d/?originalSubdomain=in" style="display: inline-block; text-decoration: none; transition: 0.16s; border-style: solid; cursor: pointer; background-color: rgb(142, 161, 255); color: rgb(248, 248, 248); border-color: rgb(142, 161, 255); border-width: 2px; border-radius: 16px; padding: 8px 17px; line-height: 1.5; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 3px;" data-hover-bgcolor="#9db0ff" data-hover-color="#ffffff" data-hover-bordercolor="#9db0ff" onmouseover="this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');" onmouseout="this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')" target="_blank" title="debayan linkedin">linkedin</a><p style="font-size: 14px; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-weight: 300; text-align: left; margin-top: 0px; line-height: 28px; margin-bottom: 20px;"><br></p>
+  <div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/v77Lv64f732cbd5a56b6a9b9377bashamik.png" alt="" data-filename="64f732cbd5a56b6a9b9377ba_Shamik.png" style="margin-top: 0px; margin-bottom: 0px; width: 48px; height: 48px;">
+    <div style="margin-left: 16px;">
+    <h3 style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 400; margin-bottom: 0px; line-height: 1.5; margin-top: 0px;">Debayan Dhar<br></h3>
+    <img src="https://tadibhargavaabhiramreddy.graphy.com/s/pages/assets/images/jq7Js16231558095starrating1.png" alt="" data-filename="16231558095-star-rating 1.svg" style="width: 100px; margin-top: 0px; margin-bottom: 0px;">
+      </div>
+  </div>
+</div></div><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div><div class="row clearfix"><!-- Sticky Footer Slim Version -->
+<div class="sticky-footer" spellcheck="false">
+  <div class="footer-content">
+    <span class="footer-text">
+      Start Today&nbsp; |&nbsp; Current Batch + Revise again with Next Batch Targets 40 LPA Dream Jobs!</span>
+    <div class="footer-buttons">
+      <a href="https://www.clouddevopshub.com/courses/Lakshya-40LPA----Multi-Cloud--DevOps-With-AI---Batch-39-67f63c19e1ee6130c4eb88ab" class="footer-btn" target="_blank" title="Enroll Now ">Enroll Now </a>
+      <a href="https://wa.me/919999999999" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+        <img src="/s/pages/assets/images/zaYGGsm5b321c99945a2.jpg" alt="WhatsApp" style="width: 76.3889%; height: auto;" data-filename="sm_5b321c99945a2.jpg">
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffb347;
+    color: #000;
+    z-index: 9999;
+    padding: 6px 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    font-weight: 500;
+    flex: 1;
+  }
+
+  .footer-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .footer-btn {
+    background-color: #ffffff;
+    color: #ff7b00;
+    padding: 5px 14px;
+    text-decoration: none;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid #ff7b00;
+    transition: 0.3s ease;
+    white-space: nowrap;
+  }
+
+  .footer-btn:hover {
+    background-color: #ff7b00;
+    color: white;
+  }
+
+  .whatsapp-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+  }
+
+  .whatsapp-btn img {
+    width: 18px;
+    height: 18px;
+  }
+
+  @media (max-width: 600px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 6px;
+    }
+
+    .footer-text {
+      font-size: 11px;
+    }
+
+    .footer-btn {
+      font-size: 11px;
+      padding: 5px 16px;
+    }
+
+    .whatsapp-btn {
+      width: 30px;
+      height: 30px;
+    }
+
+    .whatsapp-btn img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+</style></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="1744966640492d" data-cat="2" class="is-section is-section-100 is-box is-align-left is-bg-grey is-light-text slider-image-box">
+	<div class="is-overlay">
+		<div class="is-overlay-content content-selectable" data-module="slider" data-module-desc="Slider" data-html="zBxxbKz" data-settings="%5B%7B%22auto%22%3Atrue%2C%22arrow%22%3Atrue%2C%22dots%22%3Atrue%2C%22fade%22%3Afalse%2C%22height%22%3A%22100%25%22%2C%22images%22%3A%5B%7B%22src%22%3A%20%22%2Fs%2Fpages%2Fassets%2Fimages%2FswCFKrectanglebatch3910.png%22%2C%20%22caption%22%3A%20%22%22%2C%20%22link%22%3A%20%22%22%2C%20%22width%22%3A%20%22%22%2C%20%22align%22%3A%20%22%22%2C%20%22position%22%3A%20%22undefined%22%7D%2C%7B%22src%22%3A%20%22%2Fs%2Fpages%2Fassets%2Fimages%2F46K78rectanglebatch397.png%22%2C%20%22caption%22%3A%20%22%22%2C%20%22link%22%3A%20%22%22%2C%20%22width%22%3A%20%22%22%2C%20%22align%22%3A%20%22%22%2C%20%22position%22%3A%20%22undefined%22%7D%2C%7B%22src%22%3A%20%22%2Fs%2Fpages%2Fassets%2Fimages%2FwDEr1rectanglebatch396.png%22%2C%20%22caption%22%3A%20%22%22%2C%20%22link%22%3A%20%22%22%2C%20%22width%22%3A%20%22%22%2C%20%22align%22%3A%20%22%22%2C%20%22position%22%3A%20%22undefined%22%7D%2C%7B%22src%22%3A%20%22%2Fs%2Fpages%2Fassets%2Fimages%2F06v0irectanglebatch395.png%22%2C%20%22caption%22%3A%20%22%22%2C%20%22link%22%3A%20%22%22%2C%20%22width%22%3A%20%22%22%2C%20%22align%22%3A%20%22%22%2C%20%22position%22%3A%20%22undefined%22%7D%5D%7D%5D"><div id="Xj9tNS2" class="slider-on-box" style="width:100%;height:100%;display:none;"><div class="is-boxes slider-image" style="background-image: url('/s/pages/assets/images/swCFKrectanglebatch3910.png');position:relative;"></div><div class="is-boxes slider-image" style="background-image: url('/s/pages/assets/images/46K78rectanglebatch397.png');position:relative;"></div><div class="is-boxes slider-image" style="background-image: url('/s/pages/assets/images/wDEr1rectanglebatch396.png');position:relative;"></div><div class="is-boxes slider-image" style="background-image: url('/s/pages/assets/images/06v0irectanglebatch395.png');position:relative;"></div></div><script>
+var docReady=function(fn){var stateCheck=setInterval(function (){if(document.readyState!=="complete")return;clearInterval(stateCheck);try{fn()}catch(e){}},1);};
+docReady(function() {
+jQuery("#Xj9tNS2").css("display","block");
+jQuery("#Xj9tNS2").slick({
+dots: true,arrows: true,infinite: true,speed: 500,cssEase: "linear",slidesToShow: 1,autoplay: true,autoplaySpeed: 3000,fade: false,adaptiveHeight: true,responsive: [{breakpoint: 480,settings: {arrows: false,slidesToShow: 1}}]
+});
+});
+</script></div>
+	</div>
+</div>
+
+<!---FOOTER--->
+<div id="1624048883338d" data-cat="117" class="is-section is-box is-section-50 is-static is-bg-dark is-light-text">
+	<div class="is-boxes" id="1624048883462">
+		<div class="is-box-centered" id="1624048883462">
+			<div class="is-container container is-content-1200" id="1624048883462">
+				<div class="row clearfix" id="1624048883462"><div id="1614170062088" class="column fourth" spellcheck="false"><h3 style="font-weight: 600; font-size: 18px; letter-spacing: 1px; border-left: 3px solid rgb(225, 70, 22); padding-left: 10px; font-family: Georgia, serif;">CloudDevOpsHub</h3>
+
+<p style="font-family: Poppins, sans-serif; font-size: 14px; color: rgb(233, 233, 233); font-weight: 400; letter-spacing: 0.7px;">Fuel your Tech journey with CloudDevOpsHub&nbsp;</p><p style="font-family: Poppins, sans-serif; font-size: 14px; color: rgb(233, 233, 233); letter-spacing: 0.7px;"><b>Learn. Master and Get Hired. </b></p></div>
+
+<div id="1614170062088" class="column fourth" spellcheck="false"><h3 style="font-family: Georgia, serif; font-weight: 600; font-size: 18px; letter-spacing: 1px; border-left: 3px solid rgb(225, 70, 22); padding-left: 10px;">Contact Us</h3>
+
+<p style="font-family: Poppins, sans-serif; font-size: 14px; letter-spacing: 0.7px; margin-bottom: 0px; text-align: left;"><span style="color: rgb(241, 247, 253);"><span style="font-weight: 400;"> Corporate Office</span><span style="font-weight: 400;"> :- BTM Bangalore INDIA&nbsp;</span></span><br><span style="color: rgb(239, 108, 0);"><span><b>Regesterd Office Indore</b></span><span style="font-weight: 400;"> :</span></span><span style="font-weight: 400; color: rgb(233, 233, 233);">- Vijay Nagar, Indore(MP), INDIA</span></p>
+<a href="tel:3122310909" style="font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;">Ekta (Hr) +91-9111698200 Akansha(Hr) +91-9575795100</a><a href="tel:3122310909" style="font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;"></a><a href="tel:3122310909" style="font-family: Poppins, sans-serif; background-color: rgb(17, 17, 17); text-decoration: none; display: inline !important; letter-spacing: 2px; font-weight: normal; font-size: 14px;">Vikas Sir&nbsp; +91-9993445100</a><div style="font-size: 14px; letter-spacing: 2px; font-family: Poppins, sans-serif;">Email<a href="tel:3122310909" style="background-color: rgb(17, 17, 17); text-decoration: none; display: inline !important;">:</a>clouddevopshub@gamil.com<br><br></div></div><div id="1614170062088" class="column fourth" spellcheck="false"><h3 style="font-weight: 600; font-size: 18px; letter-spacing: 1px; border-left: 3px solid rgb(225, 70, 22); padding-left: 10px; font-family: Georgia, serif;">Quick Links</h3>
+
+
+<a href="/aboutus" style="color:#fff;font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;"> About us</a>
+<a href="/s/store" style="color:#fff;font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;"> Courses</a>
+<a href="/contactus" style="font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;color:#fff;"> Contact us</a>
+<a href="/faqs" style="font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;color:#fff;"> FAQs</a>
+<a href="/verify-certificate" style="font-family: Poppins, sans-serif; letter-spacing: 2px; text-decoration: none; font-weight: 400; font-size: 14px;display:block;color:#fff;"> Verify Certificate</a></div>
+
+
+
+
+
+<div id="1614170062088" class="column fourth"><h3 style="font-family: Georgia, serif; font-weight: 600; font-size: 18px; letter-spacing: 1px; border-left: 3px solid rgb(225, 70, 22); padding-left: 10px;">Follow Us</h3>
+
+<p style="font-family: Poppins, sans-serif; font-size: 14px; color: rgb(233, 233, 233); font-weight: 400; letter-spacing: 0.7px;">Social Links </p>
+    <div class="is-social" style="margin: 25px 0" id="1612172888101">
+               <a href="https://wa.me/919993445100"><i class="icon ion-social-whatsapp"></i></a>
+              <a href="https://www.linkedin.com/in/clouddevopshub/" title="" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+              <a href="https://www.instagram.com/clouddevopshub/" title="" target="_blank"><i class="icon ion-social-instagram"></i></a>
+              <a href="https://www.facebook.com/people/Clouddevopshub/100080218245041/" title="" target="_blank"><i class="icon ion-social-facebook"></i></a>
+              <a href="https://www.youtube.com/@CloudDevOpsHub" title="" target="_blank"><i class="icon ion-social-youtube"></i></a>
+
+            </div></div><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+				
+
+				
+			<grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars></div>
+		</div>
+	</div>
+</div>
+
+<!---OTHERS--->
+<div style="position: fixed; bottom: 0; width: 100%; background: #f5f5f5; text-align: center; padding: 15px 10px; font-family: Poppins, sans-serif; z-index: 9999; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);" id="sticky-footer">
+  <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center; flex-direction: column;">
+    <h3 style="margin: 0; font-weight: 600; font-size: 18px; color: #2a2a2a;">
+      🚀 Ready for Your High-Package Journey?
+    </h3>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+      <!-- WhatsApp Button -->
+      <a href="https://chat.whatsapp.com/DhPIW2HsCAa7enPgHCfohp" target="_blank" rel="noopener noreferrer" style="background-color: #25D366; color: white; padding: 10px 20px; border-radius: 6px; font-size: 16px; font-weight: 600; text-decoration: none;">
+        ✅ Join WhatsApp
+      </a>
+
+      <!-- Enroll Button -->
+      <a href="https://www.clouddevopshub.com/courses/Lakshya-40LPA----Multi-Cloud--DevOps-With-AI---Batch-39-67f63c19e1ee6130c4eb88ab" target="_blank" rel="noopener noreferrer" style="background-color: #2A376D; color: white; padding: 10px 20px; border-radius: 6px; font-size: 16px; font-weight: 600; text-decoration: none;">
+        🎓 Enroll Now
+      </a>
+    </div>
+  </div>
+</div>
